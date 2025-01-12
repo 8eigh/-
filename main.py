@@ -25,5 +25,5 @@ def main():
     Visualization.plot_trajectories(trajectories)
     Visualization.plot_velocity_field(velocity_field, t=1, x_range=(-5, 5), y_range=(-5, 5))
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
